@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_home2"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_home3"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_home4"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+    </group>
+    <!-- TODO: confgurate items below home -->
+    <!-- TODO: make all texts as sting.xml-->
+        <item android:title="Profile">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_login"
+                        android:icon="@drawable/home_icon"
+                        android:title="Login" />
+                    <item
+                        android:id="@+id/nav_profile"
+                        android:icon="@drawable/home_icon"
+                        android:title="Profile" />
+                    <item
+                        android:id="@+id/nav_logout"
+                        android:icon="@drawable/home_icon"
+                        android:title="Logout" />
+                </group>
+            </menu>
+
+        </item>
+
+
+
+    <item android:title="Communicate">
+
+        <item
+            android:id="@+id/nav_share"
+            android:title="Share"
+            android:icon="@drawable/home_icon"/>
+        <item
+            android:id="@+id/nav_rate"
+            android:title="Rate s"
+            android:icon="@drawable/home_icon"/>
+    </item>
+</menu>
