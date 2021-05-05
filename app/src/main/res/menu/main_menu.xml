@@ -6,13 +6,13 @@
             android:icon="@drawable/home_icon"
             android:title="Home" />
         <item
-            android:id="@+id/nav_home2"
+            android:id="@+id/nav_cinema"
             android:icon="@drawable/home_icon"
-            android:title="Home" />
+            android:title="Cinema" />
         <item
-            android:id="@+id/nav_home3"
+            android:id="@+id/nav_secondActivity"
             android:icon="@drawable/home_icon"
-            android:title="Home" />
+            android:title="Second activity" />
         <item
             android:id="@+id/nav_home4"
             android:icon="@drawable/home_icon"
