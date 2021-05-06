@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="200dp"
     android:orientation="vertical"
-    android:background="@color/teal_200"
+    android:background="@color/custom_color2"
     android:gravity="bottom"
     android:padding="20dp">
     <!-- TODO: make all texts as sting.xml-->
@@ -11,17 +12,20 @@
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:src="@drawable/hobbies_icon"/>
+        android:src="@drawable/hobbies_icon"
+        app:tint="@color/white" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="Choose Your Favorit"
         android:textSize="24sp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="What is your hobbie?"
         android:textSize="14sp"/>
 </LinearLayout>
